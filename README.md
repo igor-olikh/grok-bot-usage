@@ -43,7 +43,7 @@ flowchart LR
 
 The builder and the deploy bot work out the details between themselves. I don't pass messages between them.
 
-### Timeline (2026-10-20, Israel time)
+### Timeline (2026-10-20)
 
 | Time | What happened |
 |---|---|

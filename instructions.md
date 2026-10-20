@@ -51,7 +51,7 @@ Translated to English. Personal details removed: the owner's name, email address
 
 ---
 
-## What actually happened (2026-10-20, Israel time)
+## What actually happened (2026-10-20)
 
 | Time | Step |
 |---|---|
