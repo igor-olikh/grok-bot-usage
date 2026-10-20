@@ -2,6 +2,12 @@
 
 A private, one-screen dashboard that shows how I use Grok Bot: what needs my decision, upcoming deadlines, my bots grouped into 9 life areas, fleet health and today's routines.
 
+**What you get:** one screen that answers "how am I doing with my bots?" in 10 seconds.
+
+![Grok Bot usage dashboard: status light, decisions waiting, deadlines, 9 life areas, fleet health](assets/dashboard-en-top-1600x900.png)
+
+<sub>English copy of the real dashboard on day one: real counts and layout, people's names replaced with role names.</sub>
+
 I didn't write any code. I sent one request to my **chief-of-staff bot**. It briefed a **builder bot**, and the builder handed the deploy to my **Cloudflare bot**. About 25 minutes later the site was live behind Cloudflare Access, and it now refreshes itself every morning.
 
 This repo has the story, the brief and the guardrails, plus the steps to set up the same chain with your own Grok Bot. The dashboard's code and data stay in a separate **private** repo and are not published here.
@@ -74,9 +80,9 @@ These were written into the brief before any code existed:
 
 The screenshots are an English copy of the real dashboard. They use the real counts and the real layout, with people's names replaced by neutral role names.
 
-| Top of the dashboard (16:9) | Full page |
-|---|---|
-| ![Dashboard top](assets/dashboard-en-top-1600x900.png) | ![Dashboard full page](assets/dashboard-en-full-1280.png) |
+**Full page** (adds today's routines on a 24-hour timeline and quick buttons into each bot's chat):
+
+![Dashboard full page](assets/dashboard-en-full-1280.png)
 
 What it showed on day one: **51 bots**, **12 active**, **11 asleep for 14+ days**, **8 duplicate groups**, **1 broken routine**, about **294 routine runs a week** (an estimated 151 of them find nothing), across **9 life areas**.
 
