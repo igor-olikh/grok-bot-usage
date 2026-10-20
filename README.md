@@ -19,10 +19,10 @@ flowchart LR
     ME([Me: one request]) -->|task| COS[Chief of Staff bot<br/>Diffio]
     COS -->|brief + rules| GU[Builder bot<br/>Grok Usage]
     GU -->|commit in private repo| CF[Deploy bot<br/>Cloudflare]
-    CF -->|deploy behind Cloudflare Access| LIVE[(my-site.com/grok-usage<br/>owner only)]
+    CF -->|deploy behind Cloudflare Access| LIVE[("my-site.com/grok-usage<br/>owner only")]
     GU -. reports .-> COS
 
-    subgraph Daily loop, about 07:30
+    subgraph LOOP["Daily loop, about 07:30"]
       C1[Collect] --> C2[Safety check] --> C3[Push to private repo] --> C4[Send commit SHA to Cloudflare bot] --> C5[Redeploy]
     end
     GU --- C1
